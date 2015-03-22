@@ -49,7 +49,7 @@ func main() {
   }
 
   fmt.Println("Listening @ 127.0.0.1:8080.")
-  fmt.Println("Try running, 'echo \"Hello World\" | nc localhost 8080 from terminal")
+  fmt.Println("Try running, 'echo \"Hello World\\n\" | nc localhost 8080 from terminal")
 
   // Loop that runs FOREVER!! (OR until ctrl-c)
   for {
